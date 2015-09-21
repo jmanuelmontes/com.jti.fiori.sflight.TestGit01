@@ -1,6 +1,7 @@
 jQuery.sap.declare("com.jti.fiori.sflight.TestGit01.Component");
 jQuery.sap.require("com.jti.fiori.sflight.TestGit01.MyRouter");
 
+
 sap.ui.core.UIComponent.extend("com.jti.fiori.sflight.TestGit01.Component", {
 	metadata: {
 		name: "com.jti.fiori.sflight.TestGit01",
