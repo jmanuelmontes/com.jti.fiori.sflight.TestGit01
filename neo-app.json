@@ -1,0 +1,31 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/destinations/SAP_GATEWAY_DEMO",
+      "target": {
+        "type": "destination",
+        "name": "SAP_GATEWAY_DEMO"
+      },
+      "description": "SAP GATEWAY DEMO"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+}
